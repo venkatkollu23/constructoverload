@@ -4,6 +4,13 @@ public class HelloWorld{
     public void show(){
         System.out.prinltn("HelloWorld");
     }
+
+    public String getData(){
+
+
+        System.out.println("Stash changes");
+
+    }
     public String demoMerge(){
 
 
@@ -20,6 +27,12 @@ public class HelloWorld{
             return "Stash changes";
 
         }
+
+    }
+
+
+    public String stash2(){
+        return  "Stash2";
 
     }
 
